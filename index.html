@@ -12,19 +12,128 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/bf0be1fa79.js" crossorigin="anonymous"></script> <!-- Lien pour utiliser Logo -->
 </head>
 
 <body>
     <div class="main-container">
-        <header></header>
+        <header>
+            <img src="images/logo/Booki.png" alt="Logo Bookie" >
+            <nav>
+                <a href="#ancrehebergements">Hébergements</a>
+                <a href="#ancreactivites">Activités</a>
+            </nav>
+        </header> <!-- Menu -->
         <main>
+            <section>
+                <h2>Trouver des hébergements pour vos vacances de rêve</h2>
+                <p>En plein centre ville ou en pleine nature</p>
+                <div>
+                    <label for="site-search"><i class="fa-solid fa-location-dot"></i></label>
+                    <input type="search" id="site-search" name="jenesaispas" />
+                    <button>Rechercher</button> <!-- barre de recherche  -->
+                </div> 
+                <div> Filtres :   <button><i class="fa-solid fa-money-bill-wave" style="color: #0065fc;"></i> Economique</button> <!-- bonton filtre économique -->
+                    <button><i class="fa-sharp fa-solid fa-person" style="color: #0065fc;"></i> Familial</button> <!-- bonton filtre familial -->
+                    <button><i class="fa-solid fa-heart" style="color: #0065fc;"></i> Romantique</button> <!-- bonton filtre romantique-->
+                    <button> <i class="fa-solid fa-fire" style="color: #0065fc;"></i> Nos pépites</button>
+                </div>
+                <p><i>Plus de 500 logements disponible pour cette ville</i></p>
+            </section> 
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
-
+                    <h2 id="ancrehebergements">Les Hébergements</h2>
+                
+                    <div>
+                    <a href="#"> <!-- lien qui pour rendre tout l'article cliquable -->
+                        <article class="card">
+                            <img src="images/hebergements/fred-kleber.jpg" alt="Photo Hôtel du Port" >
+                            <h3>Hôtel du Port</h3>
+                            <p>Nuit à partir de 52 €</p>
+                            <div class="card-rating"> <!-- icône étoile  -->
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#"> <!-- lien qui pour rendre tout l'article cliquable -->
+                        <article>
+                            <img src="images/hebergements/febrian-zakaria.jpg" alt="Photo Hôtel chez Amina" >
+                            <h3>Hôtel chez Amina</h3>
+                            <p>Nuit à partir de 96 €</p>
+                            <div class="card-rating"> <!-- icône étoile  -->
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#"><!-- lien qui pour rendre tout l'article cliquable -->
+                        <article>
+                            <img src="images/hebergements/reisetopia.jpg" alt="Photo Hôtel Les Mouettes" >
+                            <h3>Hôtel Les Mouettes</h3>
+                            <p>Nuit à partir de 76 €</p>
+                            <div class="card-rating"> <!-- icône étoile  -->
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#"> <!-- lien qui pour rendre tout l'article cliquable -->
+                        <article>
+                            <img src="images/hebergements/annie-spratt.jpg" alt="Photo Hôtel de la Mer" >
+                            <h3>Hôtel de la Mer</h3>
+                            <p>Nuit à partir de 46 €</p>
+                            <div class="card-rating"> <!-- icône étoile  -->
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#"> <!-- lien qui pour rendre tout l'article cliquable -->
+                        <article>
+                            <img src="images/hebergements/marcus-loke.jpg" alt="Auberge la Canebière" >
+                            <h3>Auberge la Canebière</h3>
+                            <p>Nuit à partir de 25 €</p>
+                            <div class="card-rating"> <!-- icône étoile  -->
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="#"> <!-- lien qui pour rendre tout l'article cliquable -->
+                        <article>
+                            <img src="images/hebergements/nicate-lee.jpg" alt="Auberge le Panier">
+                            <h3>Auberge le Panier</h3>
+                            <p>Nuit à partir de 25 €</p>
+                            <div class="card-rating"> <!-- icône étoile  -->
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
+                            </div>
+                        </article>
+                    </div>
+                </a>
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
-                        <h2 class="section-title">Les plus populaires</h2>
+                        <h2 class="section-title">Les plus populaires</h2> 
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
                     </div>
                     <div class="populaires-cards">
@@ -88,8 +197,46 @@
                     </div>
                 </section>
             </div>
+            <section>
+                <h2 id="ancreactivites">Activités à Marseille</h2>
+                <div>
+                    <article>
+                    <img src="images/activites/reno-laithienne.jpg" alt="Photo vieux port" >  
+                    <h3>Vieux-Port</h3>
+                    </article>
+                    <article>
+                    <img src="images/activites/paul-hermann.jpg" alt="Photo Fort de Pomègues" >  
+                    <h3>Fort de Pomègues</h3>
+                    </article>
+                    <article>
+                    <img src="images/activites/kilyan-sockalingum.jpg" alt="Photo Parc National des Calangues" >  
+                    <h3>Parc National des Calangues</h3>
+                    </article>
+                    <article>
+                    <img src="images/activites/florian-wehde.jpg" alt="Photo Parc National des Calangues" >  
+                    <h3>Notre-Dame-de-la-Gare</h3>
+                    </article>
+                </div>
+            </section>
         </main>
-        <footer></footer>
+        <footer>
+            <article>
+                <h3>A propos</h3>
+                <a href="#">Fonctionnement du site</a>
+                <a href="#">Conditions générales</a>
+                <a href="#">Données et confidentialité</a>
+            </article>
+            <article>
+                <h3>Nos hébergements</h3>
+                <a href="#">Charte qualité</a>
+                <a href="#">Proposer votre hôtel</a>
+            </article>
+            <article>
+                <h3>Assistance</h3>
+                <a href="#">Centre d'aide</a>
+                <a href="#">Nous contacter</a>
+            </article>
+        </footer>
     </div>
 </body>
 
